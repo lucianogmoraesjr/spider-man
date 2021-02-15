@@ -16,7 +16,7 @@ header {
 .nav-menu {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: center;  
 }
 
 .nav-list {
@@ -25,6 +25,10 @@ header {
 
     li {
         margin-left: 24px;
+    }
+
+    @include responsive() {
+        display: none;
     }
 }
 
@@ -75,6 +79,20 @@ header {
     }
 }
 
+.bx {
+    display: none;
+    width: 40px;
+    height: 40px;
+
+    background-color: #FFF;
+
+    border-radius: 8px;
+
+    @include responsive() {
+        display: block;
+    }
+}
+
 .nav-social {
     display: flex;
     align-items: center;
@@ -98,5 +116,7 @@ header {
         }
     }
 
-    
+    @include responsive() {
+        display: none;
+    }    
 }
