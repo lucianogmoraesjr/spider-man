@@ -35,6 +35,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Tilt.Js](https://gijsroge.github.io/tilt.js/)
 - [GSAP](https://greensock.com/gsap/)
 
+## :memo: Licença
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
